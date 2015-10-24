@@ -10,9 +10,9 @@ for UBUNTU_VERSION in "${UBUNTU_VERSIONS[@]}"
       do
       for ZK_VERSION in "${ZOOKEEPER_VERSIONS[@]}"
          do
-         echo "$ZK_VERSION/$JDK_VERSION/UBUNTU_$UBUNTU_VERSION" 
-         mkdir -p $ZK_VERSION/$JDK_VERSION/UBUNTU_$UBUNTU_VERSION
-         ./Dockerfile.sh $UBUNTU_VERSION $JDK_VERSION $ZK_VERSION > $ZK_VERSION/$JDK_VERSION/UBUNTU_$UBUNTU_VERSION/Dockerfile
+         echo "$ZK_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION" 
+         mkdir -p $ZK_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION
+         ./Dockerfile.sh $UBUNTU_VERSION $JDK_VERSION $ZK_VERSION > $ZK_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION/Dockerfile
          done
       done 
    done
