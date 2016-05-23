@@ -1,6 +1,6 @@
 UBUNTU_VERSIONS=(14.04 15.04 15.10)
-JDK_VERSIONS=(oracle_jdk7.79.15 oracle_jdk7.80.15 oracle_jdk8.60.27 oracle_jdk8.65.17 oracle_jdk8.66.17)
-ZOOKEEPER_VERSIONS=(3.4.6 3.4.5)
+JDK_VERSIONS=(oracle_jdk7.79.15 oracle_jdk7.80.15 oracle_jdk8.60.27 oracle_jdk8.65.17 oracle_jdk8.66.17 oracle_jdk8.92.14)
+ZOOKEEPER_VERSIONS=(3.4.8 3.4.7 3.4.6 3.4.5)
 
 
 echo ${UBUNTU_VERSIONS[@]}
